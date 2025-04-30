@@ -1,0 +1,27 @@
+body {
+    background-color: #e0f7ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #005a99;
+    margin-bottom: 30px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.galeria img {
+    border: 5px solid #0073e6;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
