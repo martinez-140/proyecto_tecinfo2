@@ -1,0 +1,6 @@
+img {
+    width: 300px;
+    height: auto; /* Mantiene la proporción */
+    object-fit: cover; /* Asegura que se ajuste bien si recortas */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+}

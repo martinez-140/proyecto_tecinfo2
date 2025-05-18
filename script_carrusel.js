@@ -1,21 +1,25 @@
-let indice = 0;
+let imagenIndex = 0;
 
-function cambiarImagen(direccion) {
-    const imagenes = document.querySelectorAll('.imagen');
-    const totalImagenes = imagenes.length;
+const imagenes = [
+    'qwerty1.jpg',
+    'qwerty2.jpg',
+    'qwerty3.jpeg',
+    'qwerty4.jpeg',
+    'qwerty5.jpeg',
+    'qwerty6.jpeg'
+];
 
-    indice += direccion;
+const imagen = document.getElementById('mi-imagen');
 
-    if (indice < 0) {
-        indice = totalImagenes - 1;
-    } else if (indice >= totalImagenes) {
-        indice = 0;
+
+function cambiarImagen() {
+    imagenIndex++;
+
+    if (imagenIndex >= imagenes.length) {
+        imagenIndex = 0;
     }
 
-    const carrusel = document.querySelector('.carrusel');
-    const desplazamiento = -indice * 100; // Desplaza 100% de la imagen actual
-    carrusel.style.transform = `translateX(${desplazamiento}%)`;
+    document.getElementById('mi-imagen').src = imagenes[imagenIndex];
 }
 
-// Configurar un intervalo para cambiar las imágenes automáticamente cada 3 segundos
-setInterval(() => cambiarImagen(1), 3000);
+    
