@@ -2,27 +2,27 @@ const steps = [
     {
         titulo: "Paso 1: Recolección del papel",
         descripcion: "Reúne todo el papel usado, como hojas impresas, cuadernos viejos o periódicos. Evita papeles encerados o con restos de comida.",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Paper_collection.jpg/640px-Paper_collection.jpg"
+        imagen: "https://www.smurfitkappa.com/sv/-/m/images/blog-thumbnail-931-x-642/recycling.jpg?rev=-1"
     },
     {
         titulo: "Paso 2: Eliminación de grapas y clips",
         descripcion: "Quita todos los objetos metálicos como grapas, clips o cintas adhesivas, ya que pueden dañar las máquinas recicladoras.",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Paperclip_removal.jpg/640px-Paperclip_removal.jpg"
+        imagen: "https://plasticosdetectables.com/wp-content/uploads/grapadora-grapas-papel-v10-005.jpg"
     },
     {
         titulo: "Paso 3: Clasificación del papel",
         descripcion: "Separa el papel blanco del de color, ya que requieren procesos distintos de reciclaje.",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Paper_sorting.jpg/640px-Paper_sorting.jpg"
+        imagen: "https://us.123rf.com/450wm/mmalinika/mmalinika2004/mmalinika200400011/145379679-conjunto-de-botes-de-basura-con-basura-de-papel-reciclar-contenedores-de-basura-llenos-de-basura.jpg?ver=6"
     },
     {
         titulo: "Paso 4: Compactado o corte",
         descripcion: "Si es posible, corta el papel en pedazos más pequeños para facilitar el reciclaje.",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Shredded_paper.jpg/640px-Shredded_paper.jpg"
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwgP2H2SqPV37IfgwxUS7be7voMzYCQYO0Dg&s"
     },
     {
         titulo: "Paso 5: Almacenamiento seco",
         descripcion: "Guarda el papel en un lugar seco hasta llevarlo al centro de reciclaje más cercano.",
-        imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Paper_storage.jpg/640px-Paper_storage.jpg"
+        imagen: "https://embalajesseleccion.com/wp-content/uploads/2022/10/cajas-reci-1024x681.jpg"
     }
 ];
 
